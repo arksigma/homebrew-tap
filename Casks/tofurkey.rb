@@ -4,22 +4,22 @@ cask "tofurkey" do
 
   on_macos do
     on_intel do
-      sha256 "2fc1e66d69e2f1d00c75870b87e28989b22d88ae24e07240c91faef41d5ba491"
+      sha256 "3a79563335c5d58cdef45ed60a3bf76c5814ace19f95245c471f426dd487c501"
       url "https://github.com/arksigma/tofurkey-dist/releases/download/v#{version}/tofurkey_#{version}_darwin_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "1492ba603097cf54d35e4ea73831f0b0bdfc7b4c82a3a39e7ea4ca01183a543b"
+      sha256 "4bf6bd2734caa97fff8240e7b96aa13f58241940d9ca8b82fbafb27a4ba6dcf2"
       url "https://github.com/arksigma/tofurkey-dist/releases/download/v#{version}/tofurkey_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "eebb294a5d798b4d324f574ae99ca00c237929fedab511512282fc70371385e8"
+      sha256 "c1d41e8d245dff1e920bc6970b32b6d7bddd1ba57f0137f42f0872191fc60464"
       url "https://github.com/arksigma/tofurkey-dist/releases/download/v#{version}/tofurkey_#{version}_linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "f3453814a3f6aa24a1666cb3ed8852d60a290312ff7576a34f92fc7a1f2615b7"
+      sha256 "6c2285c58b0e8f9248ec47b05691299e20a76028bc12d062644782f4477429c9"
       url "https://github.com/arksigma/tofurkey-dist/releases/download/v#{version}/tofurkey_#{version}_linux_arm64.tar.gz"
     end
   end
