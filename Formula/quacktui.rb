@@ -7,7 +7,7 @@ class Quacktui < Formula
   sha256 "d70d65e8cb9c70efb9f4680326568e2c4caee8249b55253ae81e351242fcc34d"
   license "Apache-2.0"
 
-  depends_on "python3"
+  depends_on "python@3.12"
 
   resource "annotated-types" do
     url "https://files.pythonhosted.org/packages/ee/67/531ea369ba64dcff5ec9c3402f9f51bf748cec26dde048a2f973a4eea7f5/annotated_types-0.7.0.tar.gz"
