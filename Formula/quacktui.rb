@@ -3,8 +3,8 @@ class Quacktui < Formula
 
   desc "TUI for managing DuckLake datalakes"
   homepage "https://github.com/arksigma/quacktui"
-  url "https://files.pythonhosted.org/packages/46/ad/d5c8f6d3747a92520ed27d70d4f45758dea1838c6b1cfb803d0f056af14f/quacktui-0.1.10.tar.gz"
-  sha256 "5c6001a45dba7c1134ba8e280b3504166b3a87a4765f083ececc879c55951afd"
+  url "https://files.pythonhosted.org/packages/69/2c/8a92e6d39bf26a2727a9926487384761045dad9b2095a5810aa1c86d1f83/quacktui-0.1.11.tar.gz"
+  sha256 "5b528d6618ccbf38f44ad09b7b535c6f182ac46b631ab6452cee8d4d7be9fefe"
   license "Apache-2.0"
 
   depends_on "python@3.12"
