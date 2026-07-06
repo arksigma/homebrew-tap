@@ -1,0 +1,21 @@
+class Git9s < Formula
+  desc "A TUI for git"
+  homepage "https://github.com/arksigma/git9s"
+  url "https://github.com/arksigma/git9s/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "PLACEHOLDER_SHA256"
+  license "MIT"
+  head "https://github.com/arksigma/git9s.git", branch: "master"
+
+  depends_on "pkg-config" => :build
+  depends_on "rust" => :build
+  depends_on "libgit2"
+
+  def install
+    ENV["LIBGIT2_SYS_USE_PKG_CONFIG"] = "1"
+    system "cargo", "install", *std_cargo_args
+  end
+
+  test do
+    system bin/"git9s", "--help"
+  end
+end
