@@ -3,8 +3,8 @@ class Quacktui < Formula
 
   desc "TUI for managing DuckLake datalakes"
   homepage "https://github.com/arksigma/quacktui"
-  url "https://files.pythonhosted.org/packages/69/2c/8a92e6d39bf26a2727a9926487384761045dad9b2095a5810aa1c86d1f83/quacktui-0.1.11.tar.gz"
-  sha256 "5b528d6618ccbf38f44ad09b7b535c6f182ac46b631ab6452cee8d4d7be9fefe"
+  url "https://files.pythonhosted.org/packages/c2/f0/d15d55b6894b0ed38ac607335c28742ee529758a3e980c775e3ea47c3df6/quacktui-0.1.12.tar.gz"
+  sha256 "1557fed9c68a8be2388e831675cba89ed1cd8dda38798d9713ac46fd77597182"
   license "Apache-2.0"
 
   depends_on "python@3.12"
@@ -105,8 +105,8 @@ class Quacktui < Formula
   end
 
   resource "sqlglot" do
-    url "https://files.pythonhosted.org/packages/18/de/1542b04dcac0f85706fb8ce1ce7d2abcc230cdf10ea9e3aa7345393e5a90/sqlglot-30.11.0.tar.gz"
-    sha256 "1a23c6e2adb41da61fda46b1848d2fa26341d447fc0f0cd5ca21160362100991"
+    url "https://files.pythonhosted.org/packages/43/ed/a6c45aec29353b6392ea34548c40af3ac6ffd6bc5572cf23b2ce250876fc/sqlglot-30.12.0.tar.gz"
+    sha256 "6b8369704662d4f654bc934cea4dd31c916c2a571b389210cb9e951a275e5fd9"
   end
 
   resource "textual" do
@@ -130,8 +130,8 @@ class Quacktui < Formula
   end
 
   resource "tree-sitter" do
-    url "https://files.pythonhosted.org/packages/66/7c/0350cfc47faadc0d3cf7d8237a4e34032b3014ddf4a12ded9933e1648b55/tree-sitter-0.25.2.tar.gz"
-    sha256 "fe43c158555da46723b28b52e058ad444195afd1db3ca7720c59a254544e9c20"
+    url "https://files.pythonhosted.org/packages/f7/03/5600b84aff2e6c4fe80cfebb4063fe2f50299521befe5f6092ab8c082f4a/tree_sitter-0.26.0.tar.gz"
+    sha256 "b40c219edccc4564530c96f8f1556f6202b37cda964d1cbd7bd2b7e68b40a245"
   end
 
   resource "tree-sitter-bash" do
@@ -210,8 +210,8 @@ class Quacktui < Formula
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/72/94/1a15dd82efb362ac84269196e94cf00f187f7ed21c242792a923cdb1c61f/typing_extensions-4.15.0.tar.gz"
-    sha256 "0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466"
+    url "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz"
+    sha256 "dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5"
   end
 
   resource "typing-inspection" do
