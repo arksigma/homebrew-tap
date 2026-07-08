@@ -3,8 +3,8 @@ class Aw8s < Formula
 
   desc "k9s-style terminal UI for Argo Workflows"
   homepage "https://github.com/arksigma/aw8s"
-  url "https://files.pythonhosted.org/packages/11/5b/f8b7eecd90f6d44c8b8d1b495f1a4536a52722850faa31a17c904f5da8d3/aw8s-0.1.1.tar.gz"
-  sha256 "3556374d8ce345f77e0e5f8d51af560d65ab1c8a35813f740d5ce752904b94c9"
+  url "https://files.pythonhosted.org/packages/c0/aa/ac0068ee223f7ee7db78a9fefe261b97773d391eb6b476203f21f06ce9fc/aw8s-0.1.2.tar.gz"
+  sha256 "bdb4dc429e27a6728a8c7ee319c48fb4a91bef7c21acf2c82f071455a0102bfa"
   license "MIT"
 
   depends_on "python3"
